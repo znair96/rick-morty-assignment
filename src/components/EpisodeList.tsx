@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import { Episode } from "../types";
 const url = `https://rickandmortyapi.com/api/episode`;
 interface EpisodeProps {

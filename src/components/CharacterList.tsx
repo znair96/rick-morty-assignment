@@ -1,5 +1,5 @@
 import { Pagination } from "@mui/material";
-import React, { FC, useEffect, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import { Character, Episode } from "../types";
 const url = `https://rickandmortyapi.com/api/character`;
 interface CharacterProps {
