@@ -21,6 +21,7 @@ const CharacterList: FC<CharacterProps> = ({ episode, episodeList }) => {
     setTotalPageCount(responseJson?.info.pages);
   };
   const handleChange = (event: React.ChangeEvent<unknown>, value: number) => {
+    console.log(event);
     setCurrentPage(value);
     getAllCharacters(value);
   };
